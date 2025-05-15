@@ -1,3 +1,5 @@
+# José Guilherme Oliveira Martins
+
 import os
 import time
 
@@ -104,6 +106,5 @@ class OficinaMecanica:
             self.menu_actions[int(option)]()
 
 
-if __name__ == "__main__":
-    oficina = OficinaMecanica()
-    oficina.run()
+oficina = OficinaMecanica()
+oficina.run()
